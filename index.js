@@ -6,7 +6,7 @@ const config = require('config.json');
 const hoopURL = config.url;
 let proxies = [config.proxies];
 
-for(let i = 0;i < 20;i++) {
+for(let i = 0;i < config.threads;i++) {
     setTimeout(() => {
         let pickedProxy = `${proxies[Math.floor(Math.random() * proxies.length)]}`;
         nightmare = Nightmare({
