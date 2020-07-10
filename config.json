@@ -1,0 +1,4 @@
+{
+  url: 'https://hoop.photo/share/<your-url>',
+  proxies: ['127.0.0.1:3394', '127.0.0.1:3395', 'your proxy list']
+}
