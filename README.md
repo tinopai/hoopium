@@ -10,4 +10,9 @@ Easily boost your Hoop diamonds by scraping your 'share for rewards' link.
 * String delimiter ([delim.co](https://delim.co/)) **OPTIONAL**
 
 ## Installation
-* `git clone `
+* `git clone https://github.com/tinopai/hoopium.git`
+* `cd hoopium`
+* `npm install`
+* Edit `config.json`
+* `node index.js`
+* ⚠️ Before running `node index.js`, you must edit the proxies and the URL located in `config.json`
