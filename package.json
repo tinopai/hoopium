@@ -1,0 +1,14 @@
+{
+  "name": "hoopium",
+  "version": "2.4.1",
+  "description": "Boost your Hoop diamonds by scraping Hoop share URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Tino Pai",
+  "license": "MIT",
+  "dependencies": {
+    "nightmare": "^3.0.2"
+  }
+}
